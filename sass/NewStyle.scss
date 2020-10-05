@@ -1,0 +1,36 @@
+/* start option box */
+
+.option-box {
+    position: absolute;
+    top: 100px;
+    z-index: 9999999;
+    height: 30px;
+    position: fixed;
+    z-index: 9999999;
+    .color-option {
+        float: left;
+        background: #f1f1f1;
+        color: #333;
+        padding: 5px 1px;
+        min-width: 150px;
+        height: 40px;
+        cursor: pointer;
+        border-radius: 5px;
+        display: none;
+    }
+    .color-option ul li {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin-right: 3px;
+        margin-top: 6px;
+    }
+    i {
+        padding: 5px;
+        margin-left: 10px;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+        background: #F79320;
+    }
+}

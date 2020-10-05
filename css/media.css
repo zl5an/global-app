@@ -1,0 +1,86 @@
+/* start navbar */
+
+@media screen and (max-width:992px) {
+    nav {
+        position: fixed!important;
+        width: 100%;
+        height: auto
+    }
+    .bg-dark {
+        background: #000000 !important;
+        z-index: 999
+    }
+    .navbar-brand {
+        font-size: 30px!important
+    }
+    .bg-dark {
+        background: #000000 !important
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        padding: 10px 5px
+    }
+    .navbar-dark .navbar-brand {
+        color: #fff;
+        font-weight: 900;
+        font-size: 35px
+    }
+    .navbar-dark .navbar-brand:focus,
+    .navbar-dark .navbar-brand:hover {
+        color: #fff
+    }
+    nav .dropdown-menu {
+        z-index: 999
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: #fff
+    }
+}
+
+
+/* end navbar */
+
+
+/* start features */
+
+@media screen and (max-width:992px) {
+    .feature {
+        padding: 10px
+    }
+    .feature .feat {
+        width: 100%!important
+    }
+}
+
+.feature .feat span {
+    color: #333
+}
+
+.feature .feat h3 {
+    color: #333;
+    font-weight: bolder
+}
+
+
+/* start features */
+
+
+/* start price */
+
+@media screen and (max-width:992px) {
+    .price .card {
+        margin-bottom: 100px;
+    }
+}
+
+
+/* end price */
+
+
+/* start team */
+
+.ourteam .team .person {
+    margin-bottom: 20px
+}
+
+
+/* start team */

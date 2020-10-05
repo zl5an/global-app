@@ -1,0 +1,8 @@
+
+.container table{border-radius: 20px!important}
+.heading{margin: 50px 20px; color: #808080}
+.heading2 {margin: 50px 20px; color: #333;background: #ccc;;padding: 10px}
+.table td, .table th {text-align: right; font-weight: bold ;color: #808080  }
+table .background-table-head{background:#6C7AE0;color: #FFFFFF }
+table .background-row{background: #F8F6FF}
+.container table .thead{color: #DCDCDC; font-weight: bold; font-size: 25px ;margin-bottom: 30px; text-align: center}
